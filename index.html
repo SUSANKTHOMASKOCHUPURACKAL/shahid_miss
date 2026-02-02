@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ruh hayathi❤️</title>
+  <style>
+    body {
+      margin: 0;
+      height: 160vh;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      color: white;
+         background-image: url("shahid.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      background: white;
+      color: #89CFF0;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.4rem;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1></h1>
+    <button onclick="showMessage()">Click Me 💌</button>
+
+    <div class="message" id="loveMessage">
+      I MISS YOU 💕 Shinchan ummah......<br>
+      
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("loveMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
